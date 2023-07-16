@@ -1,8 +1,8 @@
 library(data.table)
 library(fs)
 
-GWIPS.dir <- "/home/labs/schwartzlab/joeg/tmp/GWIPS/data/"
-out.dir <- "/home/labs/schwartzlab/joeg/tmp/GWIPS/db/"
+GWIPS.dir <- "~/GWIPS/data/"
+out.dir <- "~/GWIPS/db/"
 
 bw.files <- list.files(GWIPS.dir, pattern="download.php")
 bw.files.n <- gsub("download.php[?]","", bw.files)
