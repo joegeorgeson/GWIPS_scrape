@@ -14,13 +14,18 @@ sh wget_loop.sh gwips_links.txt
 ```
 
 ## Step 3: Rename files and organize into assembly-based directories
-(will need to update paths inside `gwips_helper.R`
+(will need to update paths inside `gwips_helper.R`)
 ```
 Rscript gwips_helper.R
 ```
 
-The final directory created contained the below on 16-Jul-2023
+## Step 4: Create master key
+* An additional python script was create `get_gwips_text.py` to retrieve the 'text' attribute as displayed the html page.
+* An additional R script `Make_key.R` was written to consolidate all info.
 
+Ulitmately, all data needed for GWIPS mining in the file [GWIPS_key.csv](GWIPS_key.csv) created on 17Jul2023.
+
+The final directory created contains the below;
 ```
 num.files	size	parent
 4009	133G	.
