@@ -4,7 +4,7 @@ This was an impromtu script created to scrape downloadable links from the [GWIPS
 
 This should be portable to other UCSC-mirrors through updating the python script.
 
-**Ulitmately, all data needed for GWIPS mining is contained within the file [GWIPS_key.csv](GWIPS_key.csv) created on 17Jul2023.**
+**Ulitmately, all info needed for GWIPS mining is contained within the file [GWIPS_key.csv](GWIPS_key.csv) created on 17Jul2023.**
 
 
 ## Step 1: Retrieve all links
