@@ -1,7 +1,11 @@
+
 # GWIPS_scrape
 This was an impromtu script created to scrape downloadable links from the [GWIPS website](https://gwips.ucc.ie/downloads/index.html) and rename/organize the files into something more user friendly.
 
 This should be portable to other UCSC-mirrors through updating the python script.
+
+**Ulitmately, all data needed for GWIPS mining is contained within the file [GWIPS_key.csv](GWIPS_key.csv) created on 17Jul2023.**
+
 
 ## Step 1: Retrieve all links
 ```
@@ -22,8 +26,6 @@ Rscript gwips_helper.R
 ## Step 4: Create master key
 * An additional python script was create `get_gwips_text.py` to retrieve the 'text' attribute as displayed the html page.
 * An additional R script `Make_key.R` was written to consolidate all info.
-
-Ulitmately, all data needed for GWIPS mining in the file [GWIPS_key.csv](GWIPS_key.csv) created on 17Jul2023.
 
 The final directory created contains the below;
 ```
